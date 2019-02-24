@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="no" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips Kalkulator</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="imageContainer" class="image">
+      <img id="image" src="img/dan.jpg" alt="">
+    </div>
+    <div class="container">
+      <div class="formTop">
+        <h1>Tips Kalkulator</h1>
+      </div>
+      <form id="myForm">
+        <p>Hvor mye er regningen på?</p>
+        <label for="regning">NOK</label>
+        <input id="regning" type="number" name="regning" value="">
+        <p>Hva synes du om servicen?</p>
+        <select id="dropdown" type="dropdown" name="dropdown" value="" onchange="billData()">
+          <option value="bra">Bra</option>
+          <option value="middels">Middels</option>
+          <option value="dårlig">Dårlig</option>
+        </select>
+        <p>Hvor mange personer deler på regningen?</p>
+        <input id="personer" type="number" name="personer" value="">
+        <label for="deling">personer</label>
+        <input type="button" name="submit" value="Kalkuler" onclick="calculateTip()">
+        <p id="output"></p>
+      </form>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
