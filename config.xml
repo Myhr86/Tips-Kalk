@@ -2,10 +2,10 @@
 <widget id="com.phonegap.tips" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Tips-Kalk</name>
     <description>
-        A blank PhoneGap app.
+        En app som raskt lar deg regne ut hvor mye tips du bør gi
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="stein_myhr@hotmail.com.com">
+        Stein Arild Myhr
     </author>
     <content src="index.html" />
     <access origin="*" />
