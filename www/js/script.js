@@ -9,23 +9,23 @@ function calculateTip() {
   if(service === 'bra') {
     var braSum = sumPerPerson * 20 / (100);
     if(persons == 1) {
-    document.getElementById('output').innerHTML = "Du kan tipse " + braSum + " kr";
+    document.getElementById('output').innerHTML = "Du kan tipse " + Math.round(braSum) + " kr";
   } else {
-    document.getElementById('output').innerHTML = "Dere kan tipse " + braSum + " kr hver";
+    document.getElementById('output').innerHTML = "Dere kan tipse " + Math.round(braSum) + " kr hver";
   }
   } else if(service === 'middels') {
     var middelSum = sumPerPerson * 10 / (100);
     if(persons == 1) {
-    document.getElementById('output').innerHTML = "Du kan tipse " + middelSum + " kr";
+    document.getElementById('output').innerHTML = "Du kan tipse " + Math.round(middelSum) + " kr";
   } else {
-    document.getElementById('output').innerHTML = "Dere kan tipse " + middelSum + " kr hver";
+    document.getElementById('output').innerHTML = "Dere kan tipse " + Math.round(middelSum) + " kr hver";
   }
   } else {
     var dårligSum = sumPerPerson * 5 / (100);
     if(persons == 1) {
-    document.getElementById('output').innerHTML = "Du kan tipse " + dårligSum + " kr";
+    document.getElementById('output').innerHTML = "Du kan tipse " + Math.round(dårligSum) + " kr";
   } else {
-    document.getElementById('output').innerHTML = "Dere kan tipse " + dårligSum + " kr hver";
+    document.getElementById('output').innerHTML = "Dere kan tipse " + Math.round(dårligSum) + " kr hver";
   }
   }
 }
