@@ -1,6 +1,6 @@
-# A Blank PhoneGap App
+# Tips-Kalkulator
 
-## Usage
+## A simple app for calculating how much tip you should give
 
 ### PhoneGap CLI
 
